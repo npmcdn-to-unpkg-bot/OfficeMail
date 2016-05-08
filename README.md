@@ -1,20 +1,27 @@
 # OfficeMail
 Office Mail
 
+
 A Simple Demo With Angular 2.
     a) Angular 2 version Beta 0.17
     b) Typescript
     c) Jamine testing
+
 
 Delplyment and Running Envirentment Request:
 
 (1) Get source codes
     a) Download from the github website, or
     b) run git command:  git clone https://github.com/kevinchen278/OfficeMail.git
+    
+    
 (2) Deployment
     a) Go into the project folder, run command: npm install
     b) Run the application : npm start,  it will launch the application main page.
     c) Run test spec: npm test,   it will run all the test specs and display the test result in the webpage.
+  
+    
+    
 (3) Application Structure
 
     mail(applicatioin folder)  ---------\css--  
