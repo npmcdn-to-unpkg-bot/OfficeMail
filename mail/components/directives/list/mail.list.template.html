@@ -1,0 +1,32 @@
+<div class="mail-list">
+
+  <div class="table-head">
+    <table >
+      <thead>
+        <tr>
+          <th class="col1">Date</th>
+          <th class="col2">Subject</th>		
+          <th class="col3">From</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="table-body">
+    <table >
+      <tbody>
+        <tr *ngFor = "let item of list" (click) = "onSelectedMailChange(item)" [ngClass]="{active: isSelected}">
+          <td class="col1">{{item.date}}</td>
+          <td class="col2">{{item.subject}}</td>		
+          <td class="col3">{{item.from}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="mail-detail" >
+     <my-mail-detail *ngIf = "selectedMail" [mail]="selectedMail"> </my-mail-detail>
+</div>
+
+

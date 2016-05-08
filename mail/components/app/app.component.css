@@ -1,0 +1,62 @@
+
+.top-left {
+	width: 69%;
+	height: 90px;
+	background-color: lightgray;
+	display: inline-block;
+	border: 2px solid darkgray;
+	float: left;
+}
+
+.top-right {
+	width: 29%;
+	height: 90px;
+	background-color: lightgray;
+	border: 2px solid darkgray;
+	display: inline-table;	
+}
+
+
+.home-icon {
+	color: darkblue;
+	padding: 5px;
+}
+
+.home-icon:hover {
+	color: green;
+}
+
+.home-office {
+	color: darkblue;
+	font-size: 2em;
+}
+
+.home-office:hover {
+	color: green;
+}
+
+.user-icon {
+	color: darkblue;
+	float: right;
+	margin: 10px 20px;
+
+}
+
+.exit-icon {
+	color: darkblue;
+	float: right;
+	margin: 10px 20px;
+
+}
+
+a:hover {
+    color: green;
+}
+
+
+
+
+
+
+
+
