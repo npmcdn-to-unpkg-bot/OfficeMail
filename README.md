@@ -3,10 +3,10 @@ Office Mail
 
 
 A Simple Demo With Angular 2.
+
     a) Angular 2 version Beta 0.17
     b) Typescript
     c) Jamine testing
-
 
 Delplyment and Running Envirentment Request:
 
