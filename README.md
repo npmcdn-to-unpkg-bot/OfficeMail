@@ -64,9 +64,9 @@ Delplyment and Running Envirentment Request:
                                                  
 (4) Testing and notes.
 
-    a) Based on the Jasmine framework,
+    a) Unit testing is based on the Jasmine framework,
     b) unit-test.index is the entry,
-    c) according to the advice with Angular 2, the specs files put on the associated folder, do not put the test folder.
+    c) according to the advice with Angular 2, the specs files put on the associated folder, do not put in the separated test folder.
     d) Components and directives are important techs for modularizing angular2 application. 
        Component Class is used to connect UI(view) and the application logics and data, 
        the best practics are to make the Component class as simple (thin) as you can. Put all the application logics into services. 
