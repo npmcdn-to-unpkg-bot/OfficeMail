@@ -59,23 +59,12 @@ import { OnActivate, Router, RouteSegment, RouteTree } from '@angular/router';
 export class UserComponent implements OnActivate {
 
 	constructor(private router: Router) { }
-
-	// routerOnActivate(curr: RouteSegment, prev?: RouteSegment, currTree?: RouteTree, prevTree?: RouteTree): void {
-	// 	// this.selectedId = +curr.getParam('id');
-	// 	// this.service.getHeroes().then(heroes => this.heroes = heroes);
-	// 	// this.router.navigate(['/logout']);
-	// }
-
 	onEnter() {
 		this.router.navigate(['/home', { inboxCount: 1000, sentCount: 300 }]);
-		
 	};
-
 	onLogout(){
 		this.router.navigate(['/logout']);
-
 	}
-
 }
 
 
