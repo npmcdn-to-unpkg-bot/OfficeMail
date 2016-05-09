@@ -7,7 +7,7 @@ import { OnActivate, Router, RouteSegment, RouteTree } from '@angular/router';
 	template: `
 	    <section class="container">
 	    	<div>
-	    		<h3 class="title">Select your Accout</h3>
+	    		<h3 class="title">Select your Accout [This page is unfinished]</h3>
 
 				<form>
 				  <input type="radio" name="gender" value="fdsafd@fdafds.com" checked> fdsafd@fdafds.com<br>
@@ -17,7 +17,7 @@ import { OnActivate, Router, RouteSegment, RouteTree } from '@angular/router';
 				  <br>
 				  <br>	
 				  Mock Inbox Mail Number: <br>
-				  <input type="text" value="1000" name="firstname"><br>
+				  <input type="text" value="500" name="firstname"><br>
 				  Mock Sent Mail Number:<br>
 				  <input type="text" value="278" name="lastname">
 				</form>	    		
