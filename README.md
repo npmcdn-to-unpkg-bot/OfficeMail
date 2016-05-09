@@ -33,7 +33,7 @@ Delplyment and Running Envirentment Request:
                                     tsconfig.json -------}
                                     typings.json  -------}------- setting and config files. 
                                     systemjs.config.js---}
-                                    unit-test.index ------------- The enter of testing, the test specs files put in the associate folders.
+                                    unit-test.index ------------- The entry of testing, the test specs files put in the associate folders.
                                         \mail\--
                                               | 
                                               |-main.ts -------    The main file to bootstrap the main component AppComponent
@@ -72,13 +72,14 @@ Delplyment and Running Envirentment Request:
        the best practics are to make the Component class as simple (thin) as you can. Put all the application logics into services. 
        This make the code testable and maintainable. 
     e) In this simple applicaiton, the main component is MasterComponent (for main page), but it only include a few lines. 
-       The main implementation is located in the mail.ts and mock.mial.ts.
+       The main implementation is located in the mail.ts and mock.mail.ts.
        
        
        
 Author:  Kevin Chen
+
 Contact: kevin.chen278@gmail.com
-Phone: 609-358-4178.
+
 Date: 8-May-2016.
     
                                              
