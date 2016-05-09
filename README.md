@@ -73,6 +73,9 @@ Delplyment and Running Envirentment Request:
        This make the code testable and maintainable. 
     e) In this simple applicaiton, the main component is MasterComponent (for main page), but it only include a few lines. 
        The main implementation is located in the mail.ts and mock.mail.ts.
+    f) In Angular 2, the scoped scoped styles (Shadow DOM) is introduced, it is really awesome.  So the modular style is put in the   
+       associated component folder or embeded in the component.ts file. 
+       Also there is a global style in application folder\css\style.less(css) for every module.
        
        
        
