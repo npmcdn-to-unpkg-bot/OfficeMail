@@ -19,7 +19,7 @@ import { OnActivate, Router, RouteSegment, RouteTree } from '@angular/router';
 
 		    	    Email: kevin.chen278@gmail.com
 		    	    <br>
-		    	    Phone: 609-358-4178
+		    	    <br>
 		    	    <br>
 		    	    Date:  8-May-2016
 		    	    <br>
