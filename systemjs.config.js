@@ -4,8 +4,8 @@
 
   var  map = {
     'app':                       'mail', 
-    'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6',
-    'angular2-in-memory-web-api': 'https://npmcdn.com/angular2-in-memory-web-api' // get latest
+    'rxjs':                       'https://unpkg.com/rxjs@5.0.0-beta.6',
+    'angular2-in-memory-web-api': 'https://unpkg.com/angular2-in-memory-web-api' // get latest
   };
 
   
@@ -30,7 +30,7 @@
 
   
   packageNames.forEach(function(pkgName) {
-    map[pkgName] = 'https://npmcdn.com/' + pkgName + ngVer;
+    map[pkgName] = 'https://unpkg.com/' + pkgName + ngVer;
   });
 
   
